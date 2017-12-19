@@ -1,0 +1,72 @@
+body, header, aside, main, div, img, p, footer {
+	margin: 0;
+	padding: 0;
+}
+header, aside, footer {
+	text-transform: uppercase;
+}
+body {
+	background-color: #A3EE82;
+}
+.container {
+	width: 90%;
+	margin-left: 5%;
+}
+header {
+	padding: 24px 0px;
+	background-color: #1DF5DE;
+	text-align: center;
+}
+.box {
+	background-color: #0D5A21;
+	position: relative;
+	height: 520px;
+}
+aside {
+	background-color: #E3881C;
+	width: 15%;
+	height: 500px;
+}
+#left {
+	position: absolute;
+	top: 10px;
+	left: 5%;
+}
+main div {
+	background-color: #9AEE21;
+	width: 72.5%;
+	height: 230px;
+}
+img, p {
+	display: inline-block;
+}
+h1 {
+	text-align: center;
+}
+p {
+	width: 550px;
+}
+#title {
+	position: absolute;
+	left: 22.5%;
+	top: 10px;
+	height: 20px;
+	text-align: center;
+	color: #F61111;
+}
+#one {
+	position: absolute;
+	left: 22.5%;
+	top: 40px;
+}
+#two {
+	position: absolute;
+	left: 22.5%;
+	top: 280px;
+	text-align: right;
+}
+footer {
+	background-color: #E9F110;
+	text-align: center;
+	padding: 20px 0px;
+}
